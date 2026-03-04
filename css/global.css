@@ -254,7 +254,7 @@ p{
 .auto-container{
     position:static;
     max-width:1326px;
-    padding:0px 20px;
+    padding:0px 10px;
     margin:0 auto;
 }
 
@@ -393,9 +393,9 @@ figure{
     color: var(--main-color);
     letter-spacing: 1px;
     font-weight: 500;
-    padding:8px 30px;
+    padding:8px 8px;
     font-size:14px;
-    border-radius: 0px;
+    border-radius: 10px;
     overflow: hidden;
     transition: all 0.3s ease 0s;
 }
@@ -477,15 +477,16 @@ figure{
     vertical-align: top;
     text-align: center;
     text-transform: uppercase;
-    color: var(--main-color);
+    color: var(--white-color);
     letter-spacing: 1px;
     font-weight: 500;
     padding:8px 30px;
     font-size:14px;
     border: 1px solid var(--white-color);
-    border-radius: 0px;
+    border-radius: 10px;
     overflow: hidden;
     transition: all 0.3s ease 0s;
+    margin-bottom: 10px;
 }
 
 .btn-style-three:before{
@@ -523,6 +524,7 @@ figure{
     transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
+    
 }
 
 .btn-style-three:hover .btn-wrap  .text-one:first-child{

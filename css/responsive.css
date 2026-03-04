@@ -1310,7 +1310,7 @@
 
 	/* section padding */
 	.section-kt {
-		padding: 60px 0;
+		padding: 20px 0;
 	}
 
 	/* section top padding remove */
@@ -1837,12 +1837,12 @@
 
 	/* banner */
 	.banner-section .slide-item .content-box{
-		padding-top: 80px;
+		padding-top: 40px;
 		height: 600px;
 	}
 
 	.banner-section .slide-item .text{
-		font-size: 18px;
+		font-size: 15px;
 	}
 
 
@@ -2080,7 +2080,7 @@
 
 	/* heading */
 	.banner-section .slide-item h1{
-		font-size: 35px;
+		font-size: 22px;
 	}
 
 	.title-box h2 br {
@@ -2106,7 +2106,7 @@
 	}
 
 	.banner-section .slide-item .text{
-		padding: 0 30px;
+		padding: 0 10px;
 	}
 
 	.banner-section .explore-menu-btn{
@@ -2568,7 +2568,7 @@
 	}
 
 	h2{
-		font-size: 30px;
+		font-size: 22px;
 	}
 
 	h3{
