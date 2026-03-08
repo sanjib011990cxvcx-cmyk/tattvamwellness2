@@ -1962,7 +1962,24 @@ body.visible-sidebar{
     transform: scaleX(-1);
 }
 
+@media (max-width:768px){
 
+  
+.feature-info {
+
+	padding: 20px 0;
+
+}
+
+.feature-info-box{
+    padding:8px;
+}
+
+.feature-info-box h5{
+    font-size:14px;
+}
+
+}
 
 /*** 
 
