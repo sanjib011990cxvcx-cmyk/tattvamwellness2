@@ -8652,10 +8652,10 @@ html:not(.body-menu-opened) .hamburger .bottom-bun {
 
   .title-box h2 {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(1.4rem, 3.5vw, 2.5rem);
     font-weight: 300;
     letter-spacing: 0.04em;
-    color: #3a2e28;
+    color: #1a1818;
   }
 
   /* ── CATEGORY HEADING ── */
@@ -9145,6 +9145,22 @@ margin-top:12px;
   opacity: 0.9;
 }
 
+/* Mobile layout */
+@media (max-width:768px){
+    .google-rating{
+        flex-direction:column;
+        align-items:flex-start;
+    }
+
+    .google-logo{
+        order:1;
+    }
+
+    .rating-info{
+        order:2;
+    }
+}
+
 
 
 
@@ -9159,6 +9175,7 @@ border-radius:14px;
 overflow:hidden;
 box-shadow:0 8px 25px rgba(0,0,0,0.08);
 transition:0.3s;
+margin-top: 20px;
 }
 
 .offer-card:hover{
