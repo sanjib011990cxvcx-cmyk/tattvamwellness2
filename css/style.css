@@ -9122,7 +9122,7 @@ margin-top:12px;
 }
 
 .google-logo {
-  width: 250px;
+  width: 150px;
 }
 
 .rating-info {
@@ -9132,16 +9132,16 @@ margin-top:12px;
 .rating-score {
   font-weight: 600;
   margin-right: 15px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .stars {
   color: #fbbc04;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .review-text {
-  font-size: 24px;
+  font-size: 20px;
   opacity: 0.9;
 }
 
@@ -9154,11 +9154,29 @@ margin-top:12px;
 
     .google-logo{
         order:1;
+         width: 100px;
     }
 
     .rating-info{
         order:2;
     }
+.rating-score {
+  font-weight: 600;
+  margin-right: 15px;
+  margin-left: -16px;
+  font-size: 15px;
+}
+
+.stars {
+  color: #fbbc04;
+  font-size: 15px;
+}
+
+.review-text {
+  font-size: 15px;
+  opacity: 0.9;
+}
+    
 }
 
 
